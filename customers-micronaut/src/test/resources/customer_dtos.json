@@ -1,0 +1,107 @@
+[{
+  "name": "Lexis",
+  "lastName": "Oliffe",
+  "identityDocument": "8519037380",
+  "documentType": "PASSPORT",
+  "contacts": [{
+    "contactType": "EMAIL",
+    "contact": "lelfes0@prlog.org"
+  }, {
+    "contactType": "PHONE",
+    "contact": "wsealand1@de.vu"
+  }],
+  "addresses": [{
+    "department": "LIMA",
+    "province": "LIMA",
+    "district": "VILLA EL SALVADOR",
+    "latitude": 37.933843,
+    "longitude": 106.337072,
+    "address": "544"
+  }]
+},
+  {
+    "name": "Moritz",
+    "lastName": "Avent",
+    "identityDocument": "0366291157",
+    "documentType": "DNI",
+    "contacts": [{
+      "contactType": "PHONE",
+      "contact": "btinsey0@netlog.com"
+    }],
+    "addresses": [{
+      "department": "LIMA",
+      "province": "LIMA",
+      "district": "SAN ISIDRO",
+      "latitude": -8.1264039,
+      "longitude": 111.7018452,
+      "address": "992"
+    }]
+  },
+  {
+    "name": "Ilene",
+    "lastName": "Bignal",
+    "identityDocument": "0516205986",
+    "documentType": "DNI",
+    "contacts": [{
+      "contactType": "EMAIL",
+      "contact": "ajanjic0@taobao.com"
+    }, {
+      "contactType": "PHONE",
+      "contact": "dmcelhargy1@discuz.net"
+    }],
+    "addresses": [{
+      "department": "LIMA",
+      "province": "LIMA",
+      "district": "SURQUILLO",
+      "latitude": 25.710002,
+      "longitude": 104.471535,
+      "address": "6"
+    }, {
+      "department": "LIMA",
+      "province": "LIMA",
+      "district": "MIRAFLORES",
+      "latitude": 49.8458727,
+      "longitude": 19.6201067,
+      "address": "409"
+    }]
+  },
+  {
+    "name": "Todd",
+    "lastName": "Lumley",
+    "identityDocument": "9338748146",
+    "documentType": "FOREIGN_DOCUMENT",
+    "contacts": [{
+      "contactType": "PHONE",
+      "contact": "gstetlye0@mapquest.com"
+    }, {
+      "contactType": "EMAIL",
+      "contact": "kskittrell1@unblog.fr"
+    }],
+    "addresses": [{
+      "department": "LIMA",
+      "province": "LIMA",
+      "district": "MIRAFLORES",
+      "latitude": 38.9426594,
+      "longitude": -9.3964878,
+      "address": "9"
+    }]
+  },
+  {
+    "name": "Randal",
+    "lastName": "Vynehall",
+    "identityDocument": "9005202882",
+    "documentType": "PASSPORT",
+    "contacts": [{
+      "contactType": "EMAIL",
+      "contact": "cclemetts0@usnews.com"
+    }],
+    "addresses": [{
+      "department": "LIMA",
+      "province": "LIMA",
+      "district": "CERCADO DE LIMA",
+      "latitude": 32.9267098,
+      "longitude": 130.845304,
+      "address": "08"
+    }]
+  }
+]

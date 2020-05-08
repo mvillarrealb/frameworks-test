@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: org.mvillarreal
+---
+testFramework: junit
+sourceLanguage: java
