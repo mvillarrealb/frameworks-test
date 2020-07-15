@@ -61,12 +61,14 @@ class CustomerSimulation extends Simulation {
 
   val customers = scenario("Customers").exec(Customers.search)
 
-  setUp(customers.inject(
-    incrementUsersPerSec(20)
-      .times(5)
-      .eachLevelLasting(5 seconds)
-      .startingFrom(1)
-    ))
-    .protocols(httpProtocol)
-    .assertions(global.successfulRequests.percent.is(100))
+  setUp(
+    customers.inject(
+      incrementUsersPerSec(20)
+        .times(5)
+        .eachLevelLasting(5 seconds)
+        .startingFrom(1)
+      )
+  )
+  .protocols(httpProtocol)
+  .assertions(global.successfulRequests.percent.is(100))
 }

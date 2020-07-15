@@ -1,19 +1,21 @@
 package org.mvillarreal.api.services;
 
 
+import io.reactivex.Completable;
+import io.reactivex.Flowable;
+import io.reactivex.Maybe;
+import io.reactivex.Single;
 import org.mvillarreal.api.dtos.CustomerDTO;
-
-import java.util.List;
 
 public interface ICustomerService {
 
-    CustomerDTO createCustomer(CustomerDTO customer);
+    Single<CustomerDTO> createCustomer(CustomerDTO customer);
 
-    List<CustomerDTO> findCustomers();
+    Flowable<CustomerDTO> findCustomers();
 
-    CustomerDTO findOne(Long id);
+    Maybe<CustomerDTO> findOne(Long id);
 
-    CustomerDTO update(Long id, CustomerDTO customer);
+    Single<CustomerDTO> update(Long id, CustomerDTO customer);
 
-    void delete(Long id);
+    Completable delete(Long id);
 }
